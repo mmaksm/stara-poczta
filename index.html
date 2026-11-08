@@ -294,7 +294,7 @@ Error generating stack: `+e.message+`
   link.rel='noopener noreferrer';
   link.className='uber-eats-link '+modifier;
   link.setAttribute('data-uber-eats-link','');
-  link.innerHTML=label+' <span aria-hidden="true">↗</span>';
+  link.textContent=label;
   return link;
  };
  const installHero=()=>{
